@@ -48,9 +48,9 @@ const Navbar = () => {
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <Image
             src={toggle ? close : menu}
-            alt="Menu"
             width={28}
             height={28}
+            alt="Menu"
             className="cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
