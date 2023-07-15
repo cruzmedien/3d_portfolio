@@ -44,12 +44,14 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I&apos;m a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I&apos;m a quick learner and collaborate closely with clients
-        to create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let&apos;s work together to bring your ideas to
-        life!
+        Accomplished in Java, JavaScript, and TypeScript, I&apos;m a software
+        developer with a knack for not only frameworks like React, Node.js, and
+        Three.js but also Java-based frameworks such as Spring Boot and
+        Hibernate. Specializing in designing 3D graphics and complex systems, I
+        leverage these tools to engineer efficient, scalable, and user-friendly
+        solutions that address real-world problems. Let&apos;s collaborate and
+        breathe life into your ideas, capitalizing on the versatility of Java
+        and contemporary frameworks!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
