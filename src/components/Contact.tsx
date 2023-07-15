@@ -45,8 +45,6 @@ const Contact = () => {
       !process.env.NEXT_PUBLIC_APP_EMAILJS_TEMPLATE_ID ||
       !process.env.NEXT_PUBLIC_APP_EMAILJS_PUBLIC_KEY
     ) {
-      // Handle the case where the environment variables are not defined
-      // For example, you could throw an error
       throw new Error('EmailJS environment variables are not defined');
     }
 

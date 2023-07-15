@@ -26,6 +26,7 @@ const Navbar = () => {
             alt="Cruz Interactive Logo"
             width={36}
             height={36}
+            style={{ objectFit: 'contain' }}
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Adrian &nbsp;<span className="sm:block hidden"> | JS Mastery</span>
@@ -48,10 +49,10 @@ const Navbar = () => {
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <Image
             src={toggle ? close : menu}
-            width={28}
-            height={28}
+            width={toggle ? 18 : 20}
+            height={toggle ? 18 : 12}
             alt="Menu"
-            className="cursor-pointer"
+            style={{ cursor: 'pointer' }}
             onClick={() => setToggle(!toggle)}
           />
 
