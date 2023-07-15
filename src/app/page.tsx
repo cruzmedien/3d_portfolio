@@ -18,7 +18,7 @@ export default function Home() {
       <Tech />
       <Works />
       <Feedbacks />
-      <div>
+      <div className="relative z-0">
         <Contact />
         <StarsCanvas />
       </div>
