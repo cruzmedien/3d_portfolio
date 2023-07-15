@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { navLinks } from '@/constants';
-import { logo, menu, close } from '@/assets';
+import { close, logo, menu } from '@/assets';
 import Image from 'next/image';
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             William &nbsp;
-            <span className="sm:block hidden"> | JS and Java Mastery</span>
+            <span className="sm:block hidden"> | The Java & JS Artisan</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
